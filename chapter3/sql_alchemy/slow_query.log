@@ -1,0 +1,12 @@
+[2019-01-24 11:25:47,184]{/home/390648/chenmingwei/learn1/chapter3/sql_alchemy/app_with_sqlalchmemy.py:39} WARNING-Context:/home/390648/chenmingwei/learn1/chapter3/sql_alchemy/app_with_sqlalchmemy.py:30 (users)
+SLOW QUERY:INSERT INTO users2 (name) VALUES (%s)
+ Parameters:('xiaoming',)
+Duration: 0.00046539306640625
+
+[2019-01-24 11:25:47,184]{/home/390648/chenmingwei/learn1/chapter3/sql_alchemy/app_with_sqlalchmemy.py:39} WARNING-Context:/home/390648/chenmingwei/learn1/chapter3/sql_alchemy/app_with_sqlalchmemy.py:31 (users)
+SLOW QUERY:SELECT users2.id AS users2_id, users2.name AS users2_name 
+FROM users2 
+WHERE users2.id = %s
+ Parameters:(1,)
+Duration: 0.00025963783264160156
+
