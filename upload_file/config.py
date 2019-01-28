@@ -1,0 +1,10 @@
+from consts import DB_URI
+
+SQLALCHEMY_DATABASE_URI=DB_URI
+
+DEBUG=True
+UPLOAD_FOLDER='./tmp/permdir'
+SQLALCHEMY_TRACK_MODIFICATTONS=False
+
+
+

@@ -4,6 +4,7 @@ class User(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(50))
-
-    def __init__(self, name):
+    mail = db.Column(db.String(100))
+    def __init__(self, name ,mail):
         self.name = name
+        self.mail = mail
